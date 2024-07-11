@@ -1,0 +1,29 @@
+{
+  "name": "nestg",
+  "version": "1.0.0",
+  "main": "bin/index.cjs",
+  "scripts": {
+    "build": "esbuild src/index.ts  --bundle --outfile=bin/index.cjs --format=cjs --platform=node",
+    "start": "node bin/index.cjs"
+  },
+  "keywords": [
+    "nest",
+    "generator",
+    "nestjs",
+    "nestg"
+  ],
+  "author": "einsy-dev",
+  "license": "ISC",
+  "description": "",
+  "bin": "bin/index.cjs",
+  "dependencies": {
+    "@inquirer/prompts": "~5.1.2",
+    "commander": "~12.1.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "~9.0.7",
+    "@types/node": "~20.14.10",
+    "esbuild": "~0.23.0",
+    "typescript": "~5.5.3"
+  }
+}
