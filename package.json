@@ -1,5 +1,5 @@
 {
-  "name": "nestg",
+  "name": "@einsy.dev/nestg",
   "version": "1.0.0",
   "main": "bin/index.cjs",
   "scripts": {
@@ -9,8 +9,7 @@
   "keywords": [
     "nest",
     "generator",
-    "nestjs",
-    "nestg"
+    "nestjs"
   ],
   "author": "einsy-dev",
   "license": "ISC",
